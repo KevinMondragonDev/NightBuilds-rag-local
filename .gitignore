@@ -15,4 +15,6 @@ venv/
 data/
 output/
 *.parquet
+!datos/*.parquet
 *.log
+!datos/*.log

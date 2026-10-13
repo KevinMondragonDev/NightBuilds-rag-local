@@ -2,7 +2,7 @@
 
 > El pipeline de datos de un asistente RAG, todo en local: troceado, embeddings en pgvector, recarga incremental y evaluación.
 
-**Estado:** 🚧 sin empezar · **Tipo:** Pipeline de datos para RAG · **Módulo del programa:** 07 · Capstone, reto 4
+**Estado:** 🚧 sin empezar · **Tipo:** Pipeline de datos para RAG · **Módulo del programa:** 08 · Capstone, reto 4
 
 ## La problemática
 
@@ -12,7 +12,7 @@ Los estudiantes preguntan una y otra vez dónde se explica cada tema. Un asisten
 
 | Dónde | Qué es |
 |---|---|
-| `datos/corpus/` (34 archivos) | Las lecciones del programa (`.md` y `.py`): el corpus sobre el que responde el asistente |
+| `datos/corpus/` (45 archivos) | Las lecciones del programa (`.md` y `.py`): el corpus sobre el que responde el asistente |
 
 ## Qué hay que construir
 

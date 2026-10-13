@@ -1,4 +1,5 @@
-# 07 — Capstone: retos de la industria
+# 08 — Capstone: retos de la industria
+
 
 El cierre del programa. Aquí ya no hay pasos ni hitos marcados: recibes un problema como los que resuelve un equipo de datos, y tú decides el alcance, el diseño y cómo demostrar que funciona.
 
@@ -40,7 +41,7 @@ Probado con Floci (emulador de AWS), PostgreSQL 17 y un modelo de embeddings loc
 | S3 + catálogo de Glue + consultas con Athena sobre Parquet particionado | Sí; los resultados coinciden con pandas | Las particiones se detectan solas (`MSCK REPAIR` no existe) y Athena no crea tablas con `CREATE TABLE … WITH (…) AS`: las capas las escribe tu código |
 | Step Functions (orquestación) | Sí | — |
 | Secrets Manager | Sí | — |
-| SQS, SNS, Lambda, DynamoDB | Sí (sección `06/07_nube_con_floci`) | — |
+| SQS, SNS, Lambda, DynamoDB | Sí (sección `05_ingenieria_de_datos/07_nube_con_floci`) | — |
 | Redshift | A medias | Por dentro es PostgreSQL: acepta SQL normal, pero no `COPY` desde S3. **Por eso el warehouse se hace directamente en PostgreSQL** |
 | Bedrock (modelos de IA) | No sirve | Devuelve respuestas vacías. **Por eso el RAG usa modelos locales** |
 | Búsqueda por similitud con `pgvector` y embeddings locales (`fastembed`, modelo multilingüe) | Sí, en español | El modelo se descarga la primera vez (unos 20 s) |
@@ -48,7 +49,7 @@ Probado con Floci (emulador de AWS), PostgreSQL 17 y un modelo de embeddings loc
 
 ## Antes de empezar
 
-Necesitas tener hecho el módulo `06_ingenieria_de_datos` completo. Además, cada reto usa temas que el programa **todavía no enseña** con lecciones propias; hasta que existan, tendrás que aprenderlos con la documentación oficial:
+Necesitas tener hechos los módulos 01 a 07. Además, cada reto usa temas que el programa **todavía no enseña** con lecciones propias; hasta que existan, tendrás que aprenderlos con la documentación oficial:
 
 | Tema | Lo necesitan | Lección en el programa |
 |---|---|---|
@@ -66,7 +67,7 @@ En lugar de hitos, cinco **entregas**. Cada una se revisa antes de pasar a la si
 | # | Entrega | Qué presentas |
 |---|---|---|
 | 1 | **Planteamiento** | Una página: para quién es, qué pregunta responde, qué queda fuera, y cómo sabrás que funciona |
-| 2 | **Diseño** | Diagrama, tabla de decisiones (qué elegiste y qué descartaste) y lista de fallos previstos, con el método de `06/07_nube_con_floci/05` |
+| 2 | **Diseño** | Diagrama, tabla de decisiones (qué elegiste y qué descartaste) y lista de fallos previstos, con el método de `05_ingenieria_de_datos/07_nube_con_floci/04_diseno` |
 | 3 | **Datos fluyendo** | El dato viaja de punta a punta, aunque sea feo. Un comando lo levanta todo |
 | 4 | **Producto** | La API y la visualización en D3.js, con pruebas y comprobaciones de calidad |
 | 5 | **Defensa** | Diez minutos: demostración en vivo, una decisión difícil, una limitación y qué harías con un mes más |
@@ -91,7 +92,7 @@ Cada reto indica los suyos. Regla general: **datos públicos o sintéticos, nunc
 | Reto | Datos | Dónde |
 |---|---|---|
 | 1 Data lake | Viajes de taxi de Nueva York (público, unos 59 MB por mes) | Enlaces en el reto |
-| 2 Data warehouse | Banco histórico: 60,000 movimientos y cambios de segmento (sintético) | `datos/banco_historico/` |
+| 2 Data warehouse | Banco histórico: 60,000 movimientos en Parquet y cambios de segmento (sintético) | `datos/banco_historico/` |
 | 3 ETL a producción | Los de tu pipeline de partida | Tu `sideproject-pipeline-banco` |
 | 4 RAG local | Las lecciones de este repositorio | El propio repositorio |
 | 5 Casi tiempo real | Fuente de eventos continua (sintético) | `datos/eventos/generar_eventos.py` |

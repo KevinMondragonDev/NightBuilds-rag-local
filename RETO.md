@@ -46,4 +46,4 @@ El propio repositorio del programa: sus lecciones en `.md` y `.py`. Es público,
 
 - Búsqueda híbrida: combina similitud vectorial con búsqueda por palabras de PostgreSQL y mide si mejora.
 - Añade un segundo corpus en MongoDB (documentos con estructura distinta) sin tocar el resto del pipeline.
-- Filtra por metadatos: «solo en el módulo 06».
+- Filtra por metadatos: «solo en el módulo 05».

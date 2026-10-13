@@ -1,6 +1,6 @@
 # 🚀 Sideprojects: cómo se trabajan
 
-Cada módulo del repositorio termina con un **reto de sideproject**: un proyecto pequeño pero completo (un ETL o una API) que vive en **su propio repositorio**, con el nombre que indica el reto y siempre con el prefijo `sideproject-`.
+Cada módulo del programa, y cada sección del módulo 05, termina con un **reto de sideproject**: un proyecto pequeño pero completo (un ETL o una API) que vive en **su propio repositorio**, con el nombre que indica el reto y siempre con el prefijo `sideproject-`.
 
 La diferencia con un ejercicio: un ejercicio demuestra que entendiste un tema; un sideproject demuestra que sabes **juntar varios** y terminar algo que otra persona puede clonar y ejecutar.
 
