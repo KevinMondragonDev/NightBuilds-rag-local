@@ -28,10 +28,10 @@ Un paquete instalable, estilo automático y tests con pytest.
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-limpiador`](03_sideproject_limpiador.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`DevSandbox-limpiador`](03_devsandbox_limpiador.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-limpiador` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `DevSandbox-limpiador` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.

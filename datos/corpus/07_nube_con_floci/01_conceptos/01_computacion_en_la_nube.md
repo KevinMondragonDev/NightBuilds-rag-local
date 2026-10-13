@@ -58,7 +58,7 @@ Responde por escrito, con tus palabras, en un archivo `respuestas_nube.md`.
    - se quema un disco del centro de datos
    - un bucket queda público por error
    - se filtra una clave de acceso subida a GitHub
-5. Dibuja (a mano vale) dónde viviría en AWS cada pieza de tus sideprojects de ingesta y calidad de datos: datos crudos, datos limpios, el código, la base de datos y el programador de tareas.
+5. Dibuja (a mano vale) dónde viviría en AWS cada pieza de tus DevSandbox de ingesta y calidad de datos: datos crudos, datos limpios, el código, la base de datos y el programador de tareas.
 
 ## Pregunta para pensar
 

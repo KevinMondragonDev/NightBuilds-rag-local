@@ -11,12 +11,12 @@ Elige **uno**. Si quieres un portafolio completo, el orden recomendado es 2 → 
 
 | # | Reto | Repositorio | Construyes | Nivel |
 |---|---|---|---|---|
-| 1 | Data lake en AWS local | `sideproject-data-lake` | Capas en S3, catálogo, consultas SQL sobre Parquet y un tablero | Intermedio |
-| 2 | Data warehouse con dbt | `sideproject-data-warehouse` | Modelo estrella en PostgreSQL, en estilo ELT, con pruebas y un cuadro de mando | Intermedio |
-| 3 | Un ETL a producción | `sideproject-etl-produccion` | Un pipeline tuyo convertido en algo desplegable, vigilado y seguro | Avanzado |
-| 4 | RAG local | `sideproject-rag-local` | El pipeline de datos de un asistente que responde sobre documentos, todo en local | Avanzado |
-| 5 | Casi tiempo real | `sideproject-tiempo-real` | Eventos que llegan sin parar, procesados y dibujados en vivo | Avanzado |
-| 6 | Gobierno de datos | `sideproject-gobierno-de-datos` | Inventario de datos personales, hallazgos de una auditoría y controles que se aplican solos | Intermedio |
+| 1 | Data lake en AWS local | `NightBuilds-data-lake` | Capas en S3, catálogo, consultas SQL sobre Parquet y un tablero | Intermedio |
+| 2 | Data warehouse con dbt | `NightBuilds-data-warehouse` | Modelo estrella en PostgreSQL, en estilo ELT, con pruebas y un cuadro de mando | Intermedio |
+| 3 | Un ETL a producción | `NightBuilds-etl-produccion` | Un pipeline tuyo convertido en algo desplegable, vigilado y seguro | Avanzado |
+| 4 | RAG local | `NightBuilds-rag-local` | El pipeline de datos de un asistente que responde sobre documentos, todo en local | Avanzado |
+| 5 | Casi tiempo real | `NightBuilds-tiempo-real` | Eventos que llegan sin parar, procesados y dibujados en vivo | Avanzado |
+| 6 | Gobierno de datos | `NightBuilds-gobierno-de-datos` | Inventario de datos personales, hallazgos de una auditoría y controles que se aplican solos | Intermedio |
 
 Todos terminan igual: **los datos se sirven con una API y se muestran en una visualización interactiva con D3.js**. Un pipeline que nadie puede ver no convence a nadie.
 
@@ -83,7 +83,7 @@ Con [`RUBRICA.md`](RUBRICA.md) y dos criterios más:
 | **Alcance y criterio** | Intenta todo y no termina nada | Termina, pero sin justificar qué dejó fuera | Alcance realista, decidido al inicio y cumplido | Además, recortó a mitad de camino y explica por qué fue la decisión correcta |
 | **Visualización** | Muestra una tabla | Una gráfica que no responde a la pregunta del planteamiento | Interactiva, legible y responde a la pregunta; lee de la API, no de un archivo | Además, alguien ajeno saca la conclusión sin explicación |
 
-Las reglas de trabajo y de integridad académica son las de [`SIDEPROJECTS.md`](REGLAS.md).
+Las reglas de trabajo y de integridad académica son las de [`NIGHTBUILDS.md`](REGLAS.md).
 
 ## Datos
 
@@ -93,9 +93,9 @@ Cada reto indica los suyos. Regla general: **datos públicos o sintéticos, nunc
 |---|---|---|
 | 1 Data lake | Viajes de taxi de Nueva York (público, unos 59 MB por mes) | Enlaces en el reto |
 | 2 Data warehouse | Banco histórico: 60,000 movimientos en Parquet y cambios de segmento (sintético) | `datos/banco_historico/` |
-| 3 ETL a producción | Los de tu pipeline de partida | Tu `sideproject-pipeline-banco` |
+| 3 ETL a producción | Los de tu pipeline de partida | Tu `NightBuilds-pipeline-banco` |
 | 4 RAG local | Las lecciones de este repositorio | El propio repositorio |
 | 5 Casi tiempo real | Fuente de eventos continua (sintético) | `datos/eventos/generar_eventos.py` |
 | 6 Gobierno de datos | Clientes con datos personales, accesos, solicitudes ARCO y notas de soporte (sintético) | `datos/gobierno/` |
 
-`datos/generar_datos_proyectos.py` regenera los archivos sintéticos. **No lo abras si vas a hacer el reto 6 o el sideproject de ingesta a S3**: ahí se ve qué problemas esconden los datos.
+`datos/generar_datos_proyectos.py` regenera los archivos sintéticos. **No lo abras si vas a hacer el reto 6 o el NightBuild de ingesta a S3**: ahí se ve qué problemas esconden los datos.

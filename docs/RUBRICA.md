@@ -1,4 +1,4 @@
-# 📋 Rúbrica de sideprojects
+# 📋 Rúbrica de NightBuilds
 
 Sirve para tres cosas: que sepas **antes de empezar** qué se espera, que te **autoevalúes** al terminar y que quien te revise use el mismo criterio contigo que con cualquier otra persona.
 
@@ -27,7 +27,7 @@ Sirve para tres cosas: que sepas **antes de empezar** qué se espera, que te **a
 1. **Antes de empezar:** lee la columna «Logrado». Eso es lo que vas a construir.
 2. **Al terminar:** márcate un nivel por criterio y escribe **una evidencia** de cada uno (un archivo, un comando, una captura). Sin evidencia, el nivel es el anterior.
 3. **Revisión:** quien revisa hace lo mismo sin ver tu autoevaluación. Se comparan y se habla de las diferencias.
-4. **Aprobado:** nivel 3 en «Funciona y es reproducible» y en «Corrección de los datos», y ningún criterio en 1. Lo que quede en 2 se corrige y se vuelve a revisar: un sideproject no se suspende, se mejora.
+4. **Aprobado:** nivel 3 en «Funciona y es reproducible» y en «Corrección de los datos», y ningún criterio en 1. Lo que quede en 2 se corrige y se vuelve a revisar: un NightBuild no se suspende, se mejora.
 
 ## Hoja de evaluación
 

@@ -1,4 +1,4 @@
-# sideproject-rag-local
+# NightBuilds-rag-local
 
 > El pipeline de datos de un asistente RAG, todo en local: troceado, embeddings en pgvector, recarga incremental y evaluación.
 
@@ -18,7 +18,7 @@ Los estudiantes preguntan una y otra vez dónde se explica cada tema. Un asisten
 
 El enunciado completo, con sus hitos y cómo comprobar cada uno, está en [`RETO.md`](RETO.md). No trae solución: el diseño es tuyo.
 
-- [`docs/REGLAS.md`](docs/REGLAS.md): cómo se trabaja un sideproject y qué debe tener este README al terminar.
+- [`docs/REGLAS.md`](docs/REGLAS.md): cómo se trabaja un NightBuild y qué debe tener este README al terminar.
 - [`docs/RUBRICA.md`](docs/RUBRICA.md): con qué criterios se evalúa.
 - [`docs/METODO.md`](docs/METODO.md): cómo se trabaja un reto del capstone (cinco entregas) y qué está comprobado que funciona en local.
 

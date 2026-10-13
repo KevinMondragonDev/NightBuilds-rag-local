@@ -45,10 +45,10 @@ El formato del big data, a fondo: por qué es columnar, qué hay dentro de un ar
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-ingesta-multifuente`](05_sideproject_ingesta_multifuente.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`DevSandbox-ingesta-multifuente`](05_devsandbox_ingesta_multifuente.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-ingesta-multifuente` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `DevSandbox-ingesta-multifuente` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.

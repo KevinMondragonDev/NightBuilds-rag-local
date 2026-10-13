@@ -192,7 +192,7 @@ except SaldoInsuficiente:
 # ════════════════════════════════════════════════════════════════════
 # RETO DE LA LECCIÓN (pasos 1 a 5)
 # ════════════════════════════════════════════════════════════════════
-# Reorganiza tu sideproject-api-banco con esta arquitectura. Los routers pasan a
+# Reorganiza tu NightBuilds-api-banco con esta arquitectura. Los routers pasan a
 # ser adaptadores de entrada, los repositorios adaptadores de salida, y las reglas
 # que hoy viven en los servicios se mueven a las entidades del dominio.
 # COMPRUEBA: los tests del dominio y de los casos de uso pasan sin instalar

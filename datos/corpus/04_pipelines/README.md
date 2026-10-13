@@ -27,10 +27,10 @@ Airflow: tareas, dependencias, fechas lógicas y reintentos.
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-pipeline-banco`](03_sideproject_pipeline_banco.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`NightBuilds-pipeline-banco`](03_nightbuilds_pipeline_banco.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-pipeline-banco` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `NightBuilds-pipeline-banco` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.

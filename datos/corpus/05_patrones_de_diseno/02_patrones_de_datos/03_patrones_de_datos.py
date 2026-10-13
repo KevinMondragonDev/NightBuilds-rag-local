@@ -22,7 +22,7 @@ TIEMPO: 2 h · ANTES DE EMPEZAR: lección 2 y 04_pipelines/01_etl_y_carga/02_car
 CALENTAMIENTO (sin mirar apuntes, responde en un comentario antes de empezar):
     1. Define «idempotente» y da las dos recetas para conseguirlo en PostgreSQL.
     2. ¿Qué problema resuelve el patrón Repository?
-    3. ¿Qué hiciste con las filas rechazadas en tu sideproject de calidad de datos?
+    3. ¿Qué hiciste con las filas rechazadas en tu DevSandbox de calidad de datos?
 """
 
 from datetime import date

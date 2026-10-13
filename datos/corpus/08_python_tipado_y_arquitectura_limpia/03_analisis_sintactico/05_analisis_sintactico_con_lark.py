@@ -12,7 +12,7 @@ CÓMO USAR ESTA LECCIÓN: predice, ejecuta, compara con la salida esperada, tu t
 POR QUÉ IMPORTA: una expresión regular busca PATRONES dentro de un texto. Un
 analizador sintáctico comprueba que TODO el texto tiene la ESTRUCTURA permitida y
 lo convierte en datos con forma. Es la base de un validador serio de entradas, y
-de la capa de seguridad que construirás en el sideproject de esta sección.
+de la capa de seguridad que construirás en el NightBuild de esta sección.
 
 CALENTAMIENTO (sin mirar apuntes):
     1. ¿Qué diferencia hay entre el dominio y un adaptador?
@@ -208,12 +208,12 @@ print("[paso 5]", es_valida(disfrazado), es_valida(normalizar(disfrazado)), repr
 #   comandos, plantillas, formatos. Ahí es una defensa fuerte.
 #   NO PUEDE entender la intención de un texto libre en lenguaje natural: una
 #   frase que manipula a un modelo de lenguaje es gramaticalmente una frase normal.
-#   Por eso, en el sideproject, el análisis sintáctico es UNA capa de varias.
+#   Por eso, en el NightBuild, el análisis sintáctico es UNA capa de varias.
 
 # ════════════════════════════════════════════════════════════════════
 # RETO DE LA LECCIÓN (pasos 1 a 5)
 # ════════════════════════════════════════════════════════════════════
-# Añade a tu sideproject-api-banco un parámetro `filtro` en GET /movimientos que
+# Añade a tu NightBuilds-api-banco un parámetro `filtro` en GET /movimientos que
 # acepte este lenguaje: normalizar -> analizar -> validar el sentido -> SQL con
 # parámetros. Si algo falla, 422 con la columna del error.
 # COMPRUEBA: los cinco intentos del paso 2 devuelven 200, 422, 422, 422 y 422.

@@ -27,10 +27,10 @@ Idempotencia, carga incremental, cuarentena, write-audit-publish e historial de 
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-mini-framework-etl`](03_sideproject_mini_framework_etl.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`NightBuilds-mini-framework-etl`](03_nightbuilds_mini_framework_etl.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-mini-framework-etl` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `NightBuilds-mini-framework-etl` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.

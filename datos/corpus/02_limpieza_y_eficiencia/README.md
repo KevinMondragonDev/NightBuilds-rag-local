@@ -36,10 +36,10 @@ La alternativa moderna a pandas, con evaluación perezosa.
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-calidad-de-datos`](04_sideproject_calidad_de_datos.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`DevSandbox-calidad-de-datos`](04_devsandbox_calidad_de_datos.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-calidad-de-datos` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `DevSandbox-calidad-de-datos` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.

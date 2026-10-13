@@ -1,6 +1,6 @@
 # 🧠 Reto 4 — RAG local: el pipeline de datos de un asistente
 
-**Repositorio:** `sideproject-rag-local` · **Nivel:** avanzado · **Entorno:** PostgreSQL con `pgvector`, embeddings locales y un modelo de lenguaje local · **Método y evaluación:** [`README.md`](docs/METODO.md)
+**Repositorio:** `NightBuilds-rag-local` · **Nivel:** avanzado · **Entorno:** PostgreSQL con `pgvector`, embeddings locales y un modelo de lenguaje local · **Método y evaluación:** [`README.md`](docs/METODO.md)
 
 ## El caso
 

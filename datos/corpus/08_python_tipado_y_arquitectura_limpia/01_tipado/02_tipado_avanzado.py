@@ -177,7 +177,7 @@ print("[paso 5]", cumple_todas(250.0, [lambda m: m > 0, lambda m: m < 100_000]))
 # ════════════════════════════════════════════════════════════════════
 # RETO DE LA LECCIÓN (pasos 1 a 5)
 # ════════════════════════════════════════════════════════════════════
-# Vuelve a tu sideproject-limpiador y déjalo en `mypy --strict` sin errores:
+# Vuelve a tu DevSandbox-limpiador y déjalo en `mypy --strict` sin errores:
 # NewType para los identificadores, TypedDict o dataclass para las filas, Protocol
 # para lo que entra por parámetro y Resultado[T] en lugar de devolver None.
 # COMPRUEBA: añade mypy a tu CI y rompe un tipo a propósito en una rama.

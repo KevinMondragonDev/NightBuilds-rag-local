@@ -43,10 +43,10 @@ Un método para decidir qué servicios usar y defenderlo.
 
 ## Cierre de la sección
 
-Cuando termines todas las lecciones: [`sideproject-data-lake-eventos`](05_sideproject_data_lake_eventos.md). Es el mismo sideproject para todas las microsecciones: junta lo de la sección entera.
+Cuando termines todas las lecciones: [`NightBuilds-data-lake-eventos`](05_nightbuilds_data_lake_eventos.md). Es el mismo NightBuild para todas las microsecciones: junta lo de la sección entera.
 
 ## Antes de pasar a la siguiente
 
 - [ ] Hiciste el «tu turno» y el reto de cada lección, no solo ejecutaste los ejemplos.
-- [ ] Tu `sideproject-data-lake-eventos` pasa la lista de cierre de [`SIDEPROJECTS.md`](../../SIDEPROJECTS.md).
+- [ ] Tu `NightBuilds-data-lake-eventos` pasa la lista de cierre de [`NIGHTBUILDS.md`](../../NIGHTBUILDS.md).
 - [ ] Anotaste la fecha en el calendario de [`REPASO.md`](../../REPASO.md) para repasar esta sección.
